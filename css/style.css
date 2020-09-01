@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	
+	font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+    width: 100%;
+    float: left;
+    background: #d2b1b1;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+.logo{
+	width: 25%;
+	float: left;
+}
+
+.logo img{
+	padding: 10px;
+}
+.menu{
+	width: 50%;
+	float: left;
+}
+
+nav ul{
+ list-style: none;
+}
+
+nav ul li{
+ display: inline-block;
+ margin: 30px 20px;
+ font-weight: bold;
+}
+nav ul li a{
+  text-decoration: none;
+  padding: 8px;
+}
+
+nav ul li a:hover {
+    background-color: red;
+}
+
+.social-icon{
+	width: 25%;
+	float: left;
+}
+.social-icon ul{
+}
+
+.social-icon ul li {
+    display: inline-block;
+    margin: 25px 4px;
+}
+
+
+.social-icon ul a {
+    font-size: 25px;
+}
+
+/*banner section start*/
+
+.banner{
+    width: 100%;
+    float: left;
+    padding: 50px;
+    background: url(../images/background.jpeg)no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+ }
+.banner-content{
+
+	background-color: #87ceeb8a;
+	width: 50%;
+	padding: 50px 25px;
+	margin-top: 30px;
+ }
+
+ .banner-content h2 {
+    color: black;
+    text-align: center;
+    font-size: 54px;
+}
+
+.banner-content p {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+  .banner-content ul{
+
+	list-style: none;
+	text-align: center;
+ }
+ .banner-content ul li{
+
+	display: inline-block;
+	margin: 10px 18px;
+ }
+ .banner-content ul li a{
+
+	text-decoration: none;
+	background-color: #7a9f3f;
+	padding: 10px;
+	color: white;
+ }
+
+ /*banner section end*/
+
+ 
+.feature{
+	width: 100%;
+	float:left;
+	padding: 25px 0px;
+}
+
+.feature-one{
+	width: 25%;
+    float: left;
+    text-align: center;
+}
+
+i.fa.fa-check {
+    background: #008000;
+    width: 50px;
+    height: 50px;
+    line-height: 36px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+i.fa.fa-map-marker {
+    background:#008080;
+    width: 50px;
+    height: 50px;
+    line-height: 36px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+}
+
+i.fa.fa-money {
+    background: #ff9800ba;
+    width: 50px;
+    height: 50px;
+    line-height: 36px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+}
+
+i.fa.fa-user-plus {
+    background: #07ff0f;
+    width: 50px;
+    height: 50px;
+    line-height: 36px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+
+.feature-one h2{
+	color: mediumblue;
+    font-size: 16px;
+    margin: 4px;
+}
+
+.feature-one p{
+
+}
+
+.feature-one btn{
+
+}
+
+button.btn:hover{
+	color: yellow;
+	background: red;
+}
+
+button.btn{
+   color: white;
+   background: #FF5722;
+   padding: 8px 5px;
+   font-size: 15px;
+
+ }
+
+
+/* sec2 ENDS */
+
+
+.sec3{
+
+    width: 100%;
+    overflow: hidden;
+}
+
+.bigbox1{
+
+    overflow: hidden;
+    float: left;
+    width: 43%;
+    background-color: #dfe6e9;
+    margin-left: 18px;
+    padding: 51px 0px;
+    line-height: 28px;
+}
+
+.bigbox1 h2{
+
+    text-align: center;
+}
+
+.bigbox1 ul{
+
+    list-style: none;
+    margin-left: 55px;
+    margin-top: 18px;
+}
+
+
+.far.fa-stop-circle{
+
+    color: cornsilk;
+
+
+    margin: 5px;
+}
+
+
+.btn3{
+    color:#fff;
+   background-color:#61ab0f;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin-top: 23px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+
+.btn3:hover{
+    text-shadow:3px 3px 2px #f6f6f6;
+     background:hsl(88, 65%, 33%);
+}
+
+
+.bigbox2{
+
+    float: left;
+    width: 42%;
+    background-color: #dfe6e9;
+    margin-left: 120px;
+    padding: 51px 0px;
+    line-height: 28px;
+}
+
+.bigbox2 h2{
+
+    text-align: center;
+}
+
+.bigbox2 ul{
+
+    list-style: none;
+    margin-left: 56px;
+    margin-top: 16px;
+}
+
+.bigbox2 ul li{
+
+}
+/* sec3 ENDS */
+
+.sec4{
+
+    width: 100%;
+    overflow: hidden;
+}
+
+.sec4 h1{
+
+    text-align: center;
+    margin: 13px 13px;
+    font-size: 33px;
+}
+
+
+.sec4-left{
+
+    width: 40%;
+    float: left;
+    margin-left: 29px;
+}
+
+.sec4-left h2{
+
+    margin-bottom: 16px;
+    color: cornflowerblue;
+}
+
+
+
+
+/* sec4 left ENDS */
+
+
+.sec4-right{
+
+    width: 40%;
+    float: left;
+    margin-left: 168px;
+}
+
+.sec4-right h2{
+
+    margin-bottom: 15px;
+    color: cornflowerblue;
+}
+
+.sec4 button{
+    color:#fff;
+    background-color: red;
+     text-decoration: none;
+     border-radius: 6px;
+     padding: 10px 20px;
+     margin-top: 23px;
+     display: inline-block;
+     font-weight: 500;
+
+
+}
+
+.sec4 button:hover{
+    text-shadow:3px 3px 2px #f6f6f6;
+    background:hsl(88, 65%, 33%);
+}
+
+
+
+/* sec4 ENDS */
+
+.sec5{
+    width: 100%;
+    overflow: hidden;
+    background-color: #dfe6e9;
+    text-align: center;
+    margin: 31px 0px;
+    padding: 36px 0px;
+    line-height: 34px;
+    font-size: 21px;
+}
+
+.sms{
+    color: whitesmoke;
+    margin-left: 81%;
+    margin-right: -207px;
+    background:rgba(0,0,0,0.2) ;
+}
+
+.sms a{
+    text-decoration: none;
+}
+
+.sms:hover{
+    background: azure;
+    color: black;
+}
+
+
+/* sec5 ENDS */
+
+#we-have {
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+    background-color: #e0e2e2;
+    position: relative;
+}
+
+#we-have .container .we-have-content {
+    text-align: center;
+    padding: 25px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    position: relative;
+}
+
+#we-have .we-have-message {
+    position: absolute;
+    top: 150px;
+    right: 0;
+    background-color: #000;
+    padding: 5px;
+    border-radius: 6px 0 0 0;
+    cursor: pointer;
+}
+
+#we-have .we-have-message a {
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+}
+
+#trustpilot {
+    width: 100%;
+    float: left;
+    margin: 40px 0;
+}
+
+#trustpilot .container .trustpilot-content {
+    text-align: center;
+}
+
+#trustpilot .container .trustpilot-content h2 .fa {
+    font-size: 40px;
+    color: rgb(10, 135, 139);
+}
+
+#trustpilot .container .trustpilot-content h2 {
+    font-size: 28px;
+    color: #000;
+    padding-bottom: 5px;
+}
+
+#trustpilot .container .trustpilot-content ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 30px;
+}
+
+#trustpilot .container .trustpilot-content ul li:nth-child(5) .fa {
+    background-color: #9e9e9e;
+}
+
+#trustpilot .container .trustpilot-content ul li .fa {
+    padding: 4px 6px;
+    background-color: #5cf32e;
+    color: #fff;
+}
+
+#trustpilot .container .trustpilot-content p {
+    font-size: 16px;
+    color: #000;
+    padding: 5px;
+}
+
+#mention {
+    width: 100%;
+    float: left;
+    background-color: #8c8f8f;
+    padding: 25px;
+}
+
+#mention .container .mention-content h1 {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+
+#mention .container .mention-content .mention-info h3 {
+    color: #fff;
+    font-size: 28px;
+    text-transform: uppercase;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+#mention .container .mention-content .mention-info h3 span {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 24px;
+    font-weight: 900;
+}
+
+#mention .container .mention-content .mention-info {
+    float: left;
+    width: 20%;
+    padding-top: 30px;
+}
+
+#mention .container .mention-content .mention-info p {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+#footer-address {
+    width: 100%;
+    float: left;
+    background-color: #082c3a;
+    padding: 25px 1px;
+}
+
+#footer-address .container-3 {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#footer-address .container-3 .footer-address-content {
+    float: left;
+    width: 50%;
+}
+
+#footer-address .container-3 .footer-address-content p {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
